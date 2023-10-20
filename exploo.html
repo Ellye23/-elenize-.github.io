@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha lista de apresentação</title>
+</head>
+<body>
+    <h1>Lista de Apresentação</h1>
+
+    <form>
+<label for="apresentação">Adicionar apresentação: </label>
+
+<input type="text" id="apresentação" name="apresentação">
+
+<button type="button" onclick="adicionarApresentação()">Adicionar</button>
+    </form>
+
+<ul id="lista-de-apresentação"></ul>
+
+<script>
+    function adicionarApresentação(){
+    
+    let parteApresentação=document.getElementById["adicionar"]
+    let listadeTarefa=document.getElementById["lista-de-apresentação"]
+
+        let novaApresentação=document.createElement["li"]
+        novaApresentação.textContent.adicionarApresentação.value;
+        listadeApresentação.appendChild[novaApresentação];
+
+        adicionarApresentação.value=""
+    }
+</script>
+</body>
+</html>

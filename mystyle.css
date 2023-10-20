@@ -1,0 +1,40 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient();
+}
+header {
+    background: sienna;
+    width: auto;
+    padding: 2px  0 0 20px;
+    text-align: center;
+    border: 1px solid;
+}
+.menu {
+    width: auto;
+}
+h1 {
+    margin: auto;
+    position: relative;
+    left: 1em;
+    bottom: 4em;
+    font-weight: bold;
+    font-size: 1em;
+}
+.conteudo {
+    text-align: center;
+
+    line-height: 1em;
+    width: auto;
+}
+h2 {
+    font-weight: bold;
+    margin: 50px 0 0  0;
+
+}
+li p {
+    line-height: 2em;
+}
+.contato {
+    margin: 0 0 0 10px;
+    text-align: center;
+}
